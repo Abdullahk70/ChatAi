@@ -1,0 +1,105 @@
+.link-container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.link-container h1{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 2rem; 
+}
+.link{
+    width: 50vw;
+    height: 40vh;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px dashed rgba(255, 255, 255, 0.30);
+    justify-content: center;
+}
+.link input{
+    width: 20vw;
+    height: 3.5vh;
+    flex-shrink: 0;
+    border-radius: 32px;
+    border: 0.5px solid #112530;
+    background-color: #112530;
+    padding: 0.5rem 2rem;
+    margin: 0.2rem;
+    color: white;
+    font-size: 1rem;
+}
+.p-btn{
+    width: 5vw;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    border: 0.5px solid #112530;
+    background: #083744;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: 'DM Sans', sans-serif;  
+}
+.s-btn{
+    width: 28.5vw;
+    padding: 14px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 32px;
+    border: 0.5px solid #112530;
+    background: #083744;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;  
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    margin-top: 1rem;
+}
+@media (max-width: 480px){
+    .link-container h1{
+        font-size: 2rem;
+        padding: 1rem;
+        
+    }
+    .link{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .link img{
+        width: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .link input{
+        width: 30vw;
+        height: 2.5vh;
+        padding: 0.5rem 2rem;
+        margin: 0.2rem;
+        font-size: 0.7rem;
+        margin-left: auto;
+        margin-right: auto;
+    }.s-btn{
+        padding-left: 30px;
+        padding-right: 110px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        font-size: 1rem;
+    }
+    .p-btn{
+        padding-left: 40px;
+        padding-right: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vh;
+        font-size: 1rem;
+    }
+}

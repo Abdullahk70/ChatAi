@@ -1,0 +1,188 @@
+.signup-container {
+  height: 100%;
+  background: linear-gradient(to right, #05404d -5%, #020202 99%, #05404d 105%);
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.title {
+  flex: 1;
+  height: 100vh;
+}
+.back-icon {
+  text-align: left;
+  margin: 1rem;
+}
+.icon {
+  text-align: center;
+}
+.icon img {
+  margin-top: 28vh;
+  width: 203.49px;
+  height: 155.225px;
+  flex-shrink: 0;
+}
+.icon h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 29.404px;
+}
+
+.vertivleLine {
+  border-left: 4px solid rgb(255, 255, 255);
+  height: 50vh;
+  margin-top: 25vh;
+  width: 1;
+}
+.sign-up {
+  flex: 1;
+  height: 100vh;
+  text-align: center;
+}
+.sign-up h1 {
+  margin-top: 6rem;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.input {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  text-align: left;
+  margin-top: 8rem;
+}
+.input p {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0.2rem;
+}
+.para {
+  font-family: "Lato", sans-serif;
+  font-size: 0.9rem;
+}
+.input input {
+  width: 330px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #0f7e78;
+  padding-left: 1rem;
+  background-color: #14151c;
+  color: white;
+  font-size: 1rem;
+}
+.sign-btn {
+  display: inline-flex;
+  padding: 13px 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  background: linear-gradient(
+    180deg,
+    rgba(15, 126, 120, 0.58) 0%,
+    rgba(8, 71, 106, 0.41) 100%
+  );
+  backdrop-filter: blur(50px);
+  border-style: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.google-btn {
+  width: 301px;
+  height: 43px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.25);
+  color: #000;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-style: none;
+  cursor: pointer;
+}
+.login-btn {
+  color: #0f9678;
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.6rem;
+}
+.for-login {
+  display: flex;
+  margin-left: 18.3vw;
+}
+@media (max-width: 480px) {
+  .signup-container {
+    flex-direction: column;
+  }
+  .title {
+    flex: 1;
+    height: 40vh;
+  }
+  .icon img {
+    margin-top: 4vh;
+    width: 130.49px;
+    height: 100.225px;
+  }
+  .icon h1 {
+    font-size: 2rem;
+    line-height: 9.404px;
+  }
+  .vertivleLine {
+    border-bottom: 4px solid rgb(255, 255, 255);
+    margin-top: 5.4vh;
+    width: 70vw;
+    height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: red;
+  }
+  .sign-up h1 {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+  .icon {
+    margin-left: -1rem;
+  }
+  .input {
+    margin-top: 2rem;
+  }
+  .input input {
+    width: 250px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #0f7e78;
+    padding-left: 1rem;
+    background-color: #14151c;
+    color: white;
+    font-size: 1rem;
+  }
+  .google-btn {
+    width: 270px;
+  }
+}

@@ -1,0 +1,22 @@
+.cht-container{
+    position: relative;
+    height: 650px;
+    width: 900px;
+    margin-left: 15vw;
+   
+}
+.chat-heading h1{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 2rem;
+}
+.in-field{
+    /* background-color: rebeccapurple; */
+    /* font-size: 2px; */
+    
+}

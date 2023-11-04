@@ -1,0 +1,125 @@
+.working-container{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to bottom left , #05404D -5%, #020202 50%,#05404D 105%);
+    color: white;
+}
+.working-heading{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    text-transform: capitalize;
+    padding-top: 10vh;
+    margin-bottom: 10vh;
+}
+.main-div{
+    display: flex;
+}
+.div1{
+    flex: 1;
+    width: 50vw;    
+}
+.div1 img{
+    width: 50vw;
+    height: 80vh;
+}
+.div2{
+    flex: 1;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.div2 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 37.933px;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 27vh;
+}
+.div2 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20.082px;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.048px; /* 194.444% */
+    letter-spacing: 0.402px;
+    width: 50%;
+}
+.div3{
+    flex: 1;
+    width: 50vw;
+    /* background-color: rgb(24, 88, 1); */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-left: 16.5vw;
+}
+.div3 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 37.933px;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 27vh;
+    
+}
+.div3 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20.082px;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.048px; /* 194.444% */
+    letter-spacing: 0.402px;
+    width: 75%;
+}
+.div4{
+    flex: 1;
+    width: 100vw;
+}
+.div4 img{
+    width: 50vw;
+    height: 80vh;
+    margin-left: -20vw;
+}
+@media (max-width: 480px){
+    .working-heading{
+        font-size: 1.5rem;
+        padding-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .div1 img{
+        width: 70vw;
+        height: 27vh;
+    }
+    .div2 h1{
+        font-size: 1rem;
+        padding-top: 6vh;
+    }
+    .div2 p{
+        font-size: 0.5rem;
+        line-height: 10.048px; 
+        width: 70%;
+    }
+    .div3 h1{
+        font-size: 1rem;
+        padding-top: 6vh;
+    }
+    .div3 p{
+        font-size: 0.5rem;
+        line-height: 10.048px;
+        width: 100%;
+    }
+    .div4 img{
+        width: 70vw;
+        height: 27vh;
+    }
+}
