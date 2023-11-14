@@ -3,8 +3,8 @@ import './Link.css'
 import Linkpic from '../../../assets/images/link.svg'
 import pluspic from "../../../assets/images/Plus.svg";
 import sendpic from "../../../assets/images/send.svg";
-import chatbot from "../../../assets/images/chatbot.PNG";
-import pending from "../../../assets/images/pending.PNG";
+import chatbot from "../../../assets/images/chatbot.png";
+import pending from "../../../assets/images/pending.png";
 import axios from 'axios';
 const API_KEY = import.meta.env.VITE_OPEN_API_API_KEY;
 

@@ -1,25 +1,17 @@
 import { useRef, useState } from "react";
 import "@chatscope/chat-ui-kit-styles/dist/default/styles.min.css";
-import {
-  MainContainer,
-  ChatContainer,
-  MessageList,
-  Message,
-  MessageInput,
-  TypingIndicator,
-} from "@chatscope/chat-ui-kit-react";
+
 import './ChatBot.css'
 
 import sendpic from "../../../assets/images/send.svg";
-import chatbot from "../../../assets/images/chatbot.PNG";
-import pending from "../../../assets/images/pending.PNG";
+import chatbot from "../../../assets/images/chatbot.png";
+import pending from "../../../assets/images/pending.png";
 
 const API_KEY = import.meta.env.VITE_OPEN_API_API_KEY;
 
 console.log(API_KEY);
 
 function ChatBot() {
-  const [typing, setTyping] = useState(false);
   const [question, setQuestion] = useState('');
   const [iconSrc, setIconSrc] = useState(sendpic); // sendpic and cancelIcon are the paths to your icons
   const abortControllerRef = useRef(null);
