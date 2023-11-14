@@ -43,6 +43,7 @@ const Chats = () => {
         </div>
       <div className='chats'>
 
+        {/* {bool ? <ChatBot /> : activeComponent} */}
         {bool ? <ChatBot /> : activeComponent}
         </div>
 

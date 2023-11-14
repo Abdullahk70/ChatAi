@@ -1,22 +1,48 @@
-.cht-container{
-    position: relative;
-    height: 650px;
-    width: 900px;
-    margin-left: 15vw;
-   
+.chat-parent-continer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 7rem;
 }
-.chat-heading h1{
-    color: #FFF;
-    text-align: center;
-    font-family: 'Mulish', sans-serif;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 2rem;
+.cht-container {
+  position: relative;
+  height: 650px;
+  width: 900px;
+  margin-left: 15vw;
 }
-.in-field{
-    /* background-color: rebeccapurple; */
-    /* font-size: 2px; */
-    
+.chat-heading h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 2rem;
 }
+.in-field {
+  /* background-color: rebeccapurple; */
+  /* font-size: 2px; */
+}
+
+/* height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+.messages_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+
+.chatbot_message_screen_main {
+    width: 100%;
+    padding: 0.5rem 0;
+    max-height: 1100px;
+    height: 400px;
+    overflow-y: auto;
+  }
