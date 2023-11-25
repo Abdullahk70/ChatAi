@@ -74,7 +74,7 @@ const Product = ({ product }) => (
   </Link>
 );
 
-const Sell = () => {
+const Marketplace = () => {
   const [currentCategory, setCurrentCategory] = useState('avatars');
   
 
@@ -118,4 +118,4 @@ const Sell = () => {
   );
 };
 
-export default Sell;
+export default Marketplace;

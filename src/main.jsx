@@ -9,7 +9,7 @@ import Signup from './components/register/signup/Signup.jsx'
 import Login from './components/register/login/Login.jsx'
 import Forgot from './components/register/reset/Forgot.jsx'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
-import Sell from './components/Sell/Sell.jsx'
+import Marketplace from './components/Sell/Marketplace.jsx'
 
 
 
@@ -21,7 +21,7 @@ const router = createBrowserRouter(
       <Route path='/signup' element={<Signup />} />
       <Route path='/login' element={<Login />} />
       <Route path='/forget' element={<Forgot />} />
-      <Route path='/Sell' element={<Sell />} />
+      <Route path='/marketplace' element={<Marketplace />} />
     
     </Route>
   )

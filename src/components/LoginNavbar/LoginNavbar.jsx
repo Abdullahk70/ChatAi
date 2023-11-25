@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 import pp from "./pp.png"
 const LoginNavbar = () => {
     const profilePicture=pp;
@@ -15,9 +16,9 @@ const LoginNavbar = () => {
       <input type="text" id="search" name="search" placeholder="Search items and collections" />
     </div>
     <div id="buttons">
-      <button id="chatbot">ChatBot</button>
-      <button id="marketplace">Marketplace</button>
-      <button id="sell-button">Sell</button>
+      <Link to="/chats"><button id="chatbot">ChatBot</button></Link>
+      <Link to="/marketplace"><button id="marketplace">Marketplace</button></Link>
+      <Link to="/sell"><button id="sell-button">Sell</button></Link>
       <div className="profile">
         <a href={`path/to/profile.jsx`}>
           <img src={profilePicture} alt="Profile Picture" width="30" height="30" />

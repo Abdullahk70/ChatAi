@@ -15,7 +15,7 @@ const Login = () => {
   // login button method :
   const handleLogin = (e) => {
     e.preventDefault();
-    navigate("/Sell");
+    navigate("/marketplace");
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         console.log("User Credentials : ", userCredential);

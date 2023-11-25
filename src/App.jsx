@@ -4,7 +4,6 @@ import css from "./index.css"
 const App = () => {
   return (
     <div>
-     
       <Home />
     </div>
   )
