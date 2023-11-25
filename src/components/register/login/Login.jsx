@@ -15,10 +15,11 @@ const Login = () => {
   // login button method :
   const handleLogin = (e) => {
     e.preventDefault();
+    navigate("/Sell");
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         console.log("User Credentials : ", userCredential);
-        navigate("/");
+        navigate( to="/Sell");
       })
       .catch((error) => {
         console.log("Error : ",error);
