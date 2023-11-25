@@ -42,6 +42,7 @@ const Navbar = () => {
   };
   return (
     <div className="navbar-container">
+       
       <Link to="/" className="web-name">
         NOAH
       </Link>

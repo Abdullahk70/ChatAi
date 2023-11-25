@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
+import css from './index.css'
 import Home from './components/home/Home.jsx'
 import Chats from './components/chats/Chats.jsx'
 import Signup from './components/register/signup/Signup.jsx'
