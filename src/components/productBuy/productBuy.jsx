@@ -49,9 +49,7 @@ const ProductBuy = (props) => {
           <p className="text-justify mx-5">
             {props.product.description}
           </p>
-          <p>
-            
-          </p>
+          <p className="my-3 mx-5 text-[1.5rem] flex"><p className="text-[13px]  mt-[0.5rem]">$</p>{props.product.price}</p>
         </div>
 
         <div className="right w-1/2">
