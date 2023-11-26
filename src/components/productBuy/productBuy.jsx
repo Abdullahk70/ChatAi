@@ -46,6 +46,12 @@ const ProductBuy = (props) => {
             </p>}
           </div>
           <hr className="mx-5 my-5"/>
+          <p className="text-justify mx-5">
+            {props.product.description}
+          </p>
+          <p>
+            
+          </p>
         </div>
 
         <div className="right w-1/2">
