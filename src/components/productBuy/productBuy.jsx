@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import LoginNavbar from "../LoginNavbar/LoginNavbar";
 import book from "./book.png";
+import css from "./productBuy.css"
 const ProductBuy = (props) => {
   const [productImg, setProductImg] = useState(book);
 
@@ -50,6 +51,7 @@ const ProductBuy = (props) => {
             {props.product.description}
           </p>
           <p className="my-3 mx-5 text-[1.5rem] flex"><p className="text-[13px]  mt-[0.5rem]">$</p>{props.product.price}</p>
+          <button className="content-button mx-5">Get Prompt</button>
         </div>
 
         <div className="right w-1/2">
