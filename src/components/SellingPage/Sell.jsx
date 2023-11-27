@@ -3,6 +3,7 @@ import React from 'react';
 import sendpic from '../../assets/images/send.svg';
 import Uploadpic from '../../assets/images/Upload-icon.svg';
 import LoginNavbar from '../LoginNavbar/LoginNavbar';
+import css from "./Sell.css"
 
 const Sell = () => {
     const [selectedFile, setSelectedFile] = useState(null);
@@ -71,8 +72,8 @@ const Sell = () => {
   return (
     <div>
       <LoginNavbar/>
-    <div className=" items-center content-center place-content-start align-middle align-center flex flex-col my-20">
-      <div className="file align-middle  flex flex-col " style={{ width:"30rem",height:"7rem",alignItems:"center",alignContent:"center" }} >
+    <div className=" items-center  flex flex-col my-4 -mt-12">
+      <div className="file align-middle  flex flex-col " style={{ width:"27rem",height:"7rem",alignItems:"center",alignContent:"center" }} >
             <input
               type="file"
               id="fileInput"
@@ -93,9 +94,16 @@ const Sell = () => {
           </div>
           
     </div>
-    <div>
-          <p className=" text-slate-500 m-4 flex flex-row text-center align-middle">Name</p>
+    <div className="items-center flex flex-col ">
+          <p className=" text-slate-500 m-2 mt-4 flex flex-row text-center align-middle ">Name</p>
+          <input placeholder='Name ' className="w-4/12 p-[0.35rem] rounded-sm text-neutral-950" type="text" />
+          <p className=" text-slate-500 m-2 flex flex-row text-center align-middle">Price</p>
+          <input type="text" placeholder='Price' className="w-4/12 p-[0.35rem] rounded-sm text-neutral-950" />
+          <p className=" text-slate-500 m-2 flex flex-row text-center align-middle ">Description</p>
+          <textarea type="text" placeholder='Description' className="w-4/12 p-[0.35rem] text-neutral-950 rounded-sm" rows={"3"} />
+          <button className='content-button w-1/3 my-5'>Sell</button>
           </div>
+        
     </div>
   )
 }
