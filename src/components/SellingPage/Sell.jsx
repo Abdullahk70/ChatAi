@@ -102,6 +102,7 @@ const Sell = () => {
           <p className=" text-slate-500 m-2 flex flex-row text-center align-middle ">Description</p>
           <textarea type="text" placeholder='Description' className="w-4/12 p-[0.35rem] text-neutral-950 rounded-sm" rows={"3"} />
           <button className='content-button w-1/3 my-5'>Sell</button>
+          
           </div>
         
     </div>
