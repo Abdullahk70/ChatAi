@@ -1,15 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import LoginNavbar from "../LoginNavbar/LoginNavbar";
 import book from "./book.png";
 import css from "./productBuy.css"
 const ProductBuy = (props) => {
   const [productImg, setProductImg] = useState(book);
-
+  
   return (
     <>
       <LoginNavbar />
       <div className="main flex">
         <div className="left w-1/2">
+          
           {/* replace this image src with props.image to make the banner dynamic */}
 
           <img

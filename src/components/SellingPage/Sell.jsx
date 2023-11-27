@@ -138,6 +138,7 @@ const Sell = () => {
           placeholder="Description"
           className="w-4/12 p-[0.35rem] text-neutral-950 rounded-sm"
           rows={"3"}
+          style={{resize:"none"}}
         />
         <button className="content-button w-1/3 my-5">Sell</button>
       </div>
