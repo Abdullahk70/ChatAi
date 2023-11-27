@@ -11,6 +11,7 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import Marketplace from './components/Sell/Marketplace.jsx';
 import ProductSell from './components/productBuy/productBuy.jsx';
 import ProductBuy from './components/productBuy/productBuy.jsx';
+import Sell from './components/SellingPage/Sell.jsx';
 
 const Root = () => {
   const [product, setProduct] = useState({ title: "test" });
@@ -23,6 +24,7 @@ const Root = () => {
         <Route path='/signup' element={<Signup />} />
         <Route path='/login' element={<Login />} />
         <Route path='/forget' element={<Forgot />} />
+        <Route path='/sell' element={<Sell />} />
         <Route path='/marketplace' element={<Marketplace setProduct={setProduct} />} />
         <Route path='/marketplace/productbuy' element={<ProductBuy product={product} />} />
       </Route>

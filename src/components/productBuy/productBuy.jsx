@@ -54,7 +54,7 @@ const ProductBuy = (props) => {
           <button className="content-button mx-5">Get Prompt</button>
           <p className="text-slate-400 text-xs px-5 py-3">After purchasing, you will gain access to the prompt file, which you can use with Midjourney. You must already have access to
 Midjourney to use this. <br/><br/>
-By purchasing this prompt, you agree to our <span className="underline">terms of service</span>.</p>
+By purchasing this prompt, you agree to our <span className="underline cursor-pointer">terms of service</span>.</p>
 
 <p className="text-slate-300 text-xs px-5 py-3">{props.product.lastUpdated}</p>
         </div>
@@ -72,3 +72,4 @@ By purchasing this prompt, you agree to our <span className="underline">terms of
 };
 
 export default ProductBuy;
+
