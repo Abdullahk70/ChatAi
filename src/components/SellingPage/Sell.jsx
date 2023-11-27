@@ -2,6 +2,8 @@ import { useState } from 'react';
 import React from 'react';
 import sendpic from '../../assets/images/send.svg';
 import Uploadpic from '../../assets/images/Upload-icon.svg';
+import LoginNavbar from '../LoginNavbar/LoginNavbar';
+
 const Sell = () => {
     const [selectedFile, setSelectedFile] = useState(null);
     const [uploading, setUploading] = useState(false);
@@ -67,8 +69,10 @@ const Sell = () => {
 
 
   return (
-    <div className="w-full h-full items-center content-center place-content-start">
-      <div className="file " style={{ width:"30rem",height:"7rem",alignItems:"center",alignContent:"center" }} >
+    <div>
+      <LoginNavbar/>
+    <div className=" items-center content-center place-content-start align-middle align-center flex flex-col my-20">
+      <div className="file align-middle  flex flex-col " style={{ width:"30rem",height:"7rem",alignItems:"center",alignContent:"center" }} >
             <input
               type="file"
               id="fileInput"
@@ -77,15 +81,20 @@ const Sell = () => {
               onChange={handleFileChange}
               style={{ display: 'none'}}
             />
-            <label htmlFor="fileInput" className="items-center content-center"> 
+            <label htmlFor="fileInput" className="items-center content-center text-center"> 
               <img src={Uploadpic} alt="Upload Icon" />
             </label>
-            <h2>Drag & drop files or Upload</h2>
-            <p>Supported formats: Docx, PDF</p>
-            <button onClick={handleUpload} disabled={!selectedFile}>
-              Upload
+            <h2 className="text-center">Drag & drop files or Upload</h2>
+            <p className="text-center">Supported formats: Docx, PDF</p>
+            <button onClick={handleUpload} className="items-center text-center content-center align-center " style={{ alignItems:"center",alignContent:"center",textAlign:"center" }} disabled={!selectedFile}>
+                Upload
             </button>
             {uploading && <div>Uploading... {uploadProgress}%</div>}
+          </div>
+          
+    </div>
+    <div>
+          <p className=" text-slate-500 m-4 flex flex-row text-center align-middle">Name</p>
           </div>
     </div>
   )
